@@ -19,8 +19,9 @@ table { margin: auto; }
 </head>
 
 <body>
-
 <h1>ヒトの生体機能とコンピュータユーザーインターフェイス</h1>
+
+<div id="toc" class="l-toc"></div>
 
 <h2>1. このメモの目的</h2>
 
@@ -473,7 +474,12 @@ table { margin: auto; }
 
 <details open><summary><strong>手指の器用さを支えるもの</strong></summary>
 	<p>
-		人の手は、親指がほかの指と対面して、つかんだりできることが、類人猿とは異なる特徴である。	
+		人の手は、親指がほかの指と対面して、物をつかんだりできることが、類人猿とは異なる特徴である。	
+	</p>
+	<p>
+		手指は、身体がある姿勢をとっていて体幹が支え、肩や腕が支え、腕・肘・手首が動き、手首が支えることで、はじめて器用に動く。
+		体性感覚と機械的効果器が、手指の器用さを支えている。
+		まさに、手指の器用さは、全身運動の結果である。
 	</p>
 	<p>
 		手指は、視覚に障がいがある方を除き、多くの場合、目に助けられてこそ機能する。
@@ -485,11 +491,7 @@ table { margin: auto; }
 		手指の動作は目でキートップを確認しているため、曖昧さなくpaを入力できる。
 		空間的な記憶もある。
 	</p>
-	<p>
-		手指を操るには、身体がある姿勢をとっていて、肩や肘が安定したうえで自在に動く、ということが条件である。
-		体性感覚が、手指の器用さを支えている。
-		まさに、手指の器用さは、全身運動の結果である。
-	</p>
+
 </details>
 
 <p><font color="red">？？？指の器用さのデータ？？？？？？</font></p>
@@ -754,6 +756,14 @@ table { margin: auto; }
 <li id=rVB>[rVB] 「ヒトの脳 : 解剖学的構造と機能」、https://www.visiblebody.com/ja/learn/nervous/brain</li>
 </ul>
 </details>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="toc.js"></script>
+<script>
+    $(function () {
+        $("body").toc();
+    });
+</script>
 
 </body>
 </html>
