@@ -22,6 +22,7 @@ table { margin: auto; }
 <h1>ヒトの生体機能とコンピュータユーザーインターフェイス</h1>
 
 <div id="toc" class="l-toc"></div>
+<div class="toc-contents">
 
 <h2>1. このメモの目的</h2>
 
@@ -726,6 +727,8 @@ table { margin: auto; }
 
 <p><font color="red">？？？生体機能の加齢による影響？？？？？？シニアスマホデザインガイドの導出？？？</font></p>
 
+</div> 
+
 <h2>参考文献</h2>
 <details open><summary>出展</summary>
 <ul>
@@ -761,7 +764,9 @@ table { margin: auto; }
 <script src="toc.js"></script>
 <script>
     $(function () {
-        $("body").toc();
+        $(".toc-contents").toc({
+			startLevel: 'h2'
+		});
     });
 </script>
 
