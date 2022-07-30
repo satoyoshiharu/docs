@@ -19,6 +19,7 @@ table { margin: auto; }
 table { font-size: 90%; }
 .pagebreak { break-before: page; }
 .printfriendlyblock { page-break-inside: avoid; }
+.small { font-size: 80%; }
 </style>
 	
 </head>
@@ -34,7 +35,7 @@ table { font-size: 90%; }
 
 <div class="toc-contents"> <!--Start of TOC areas-->
 
-<div class="pagebreak"><hr><h2>1. 始めに</h2>
+<div class="pagebreak"><hr><h2>1. 始めに</h2><br>
 
 	<div><h3>1.1 想定読者</h3>
 
@@ -447,7 +448,7 @@ table { font-size: 90%; }
 
 </div>
 
-<div class="pagebreak"><hr><h2>2. ヒト生体の情報処理</h2>
+<div class="pagebreak"><hr><h2>2. ヒト生体の情報処理</h2><br>
 
 	<div><h3>2.1 概観</h3>
 
@@ -1956,7 +1957,7 @@ table { font-size: 90%; }
 
 </div>
 
-<div class="pagebreak"><hr><h2>3. 言語と文字</h2>
+<div class="pagebreak"><hr><h2>3. 言語と文字</h2><br>
 
 	<details open><summary><strong>ヒト言語の前に</strong></summary>
 		<p>
@@ -2173,7 +2174,7 @@ table { font-size: 90%; }
 
 </div>
 
-<div class="pagebreak"><hr><h2>4. コンピュータ</h2>
+<div class="pagebreak"><hr><h2>4. コンピュータ</h2><br>
 
 	<div><h3>4.1 コンピュータという道具</h3>
 
@@ -2226,7 +2227,7 @@ table { font-size: 90%; }
 
 		<details open id=elite_intelligence_tool><summary><strong>昔、エリートが知能の拡張を目指した</strong></summary>
 			<p>
-				これから、ヒトと現在のコンピュータのインターフェイスを振り返る前に、歴史を振り返っておく。
+				これから、ヒトと現在のコンピュータのインターフェイスの問題を探る前に、その歴史を振り返っておく。
 			</p>
 			<p>
 				コンピュータは、第2次世界大戦で、ミサイルの弾道計算などに利用され、成功をおさめた。
@@ -2240,6 +2241,12 @@ table { font-size: 90%; }
 				その論文には、こうできる、ああできる、という様々な未来ストーリーが描かれている。
 				その中に、情報の関連性をたどれる、現在のハイパーリンクのアイデアさえ、書かれている。
 			</p>
+			<div class="printfriendlyblock">
+				<div align="center">
+					<img width=40% src="300px-Vannevar_Bush_portrait.jpg"> 
+					<p>「https://ja.wikipedia.org/wiki/ヴァネヴァー・ブッシュ」より</p>
+				</div>
+			</div>
 			<p>
 				つまり、コンピュータは、その創成期には、<strong>『知能の拡張』</strong>が目標だった。
 				単純だが膨大な弾道軌跡計算を代わりにやってくれた道具の延長である。
@@ -2252,10 +2259,26 @@ table { font-size: 90%; }
 				ブッシュの影響を受け、その後、いくつかの重要な概念が生まれた。
 				それまでは、コンピュータとのやりとりは、一括してデータを与え、一括して結果を受け取るやり方だった。
 				リックライダーという人は、1960年に、ディスプレィごしに対話式にやり取りすることを提唱した。
+			</p>
+			<div class="printfriendlyblock">
+				<div align="center">
+					<img width=20% src="J._C._R._Licklider.jpg"> 
+					<img width=30% src="330px-SAGE_console.jpeg"> 
+					<p>「https://ja.wikipedia.org/wiki/J・C・R・リックライダー」より</p>
+				</div>
+			</div>
+			<p>
 				エンゲルハートという人は、1962年、「Augmenting the Human Intellect: A conceptual framework」という論文を発表した。
 				そして、1968年に学会で、マウス、ワードプロセサ、COPY&PASTE、ハーパーリンク、リアルタイムな共同作業、画面分割、ビデオ会議などを
 				デモし（<a href="#rDE">[rDE]</a>）、参加者をびっくりさせた。
 			</p>
+			<div class="printfriendlyblock">
+				<div align="center">
+					<img width=20% src="300px-Douglas_Engelbart_in_2008.jpg"> 
+					<img width=30% src="330px-SRI_Computer_Mouse.jpg"> 
+					<p>「https://ja.wikipedia.org/wiki/ダグラス・エンゲルバート」より</p>
+				</div>
+			</div>
 			<p>
 				その後、回路の集積度が高まり、ハードが小型化していった。
 				そこで、アラン・ケイが、1970年代にパーソナルコンピュータの概念を発明した。
@@ -2267,6 +2290,12 @@ table { font-size: 90%; }
 				しかし、それまでの経緯から必然的に、そのインターフェイスに盛り込まれたものは、エリートの知能を拡張する枠組みに基づいていた。
 				パソコンは、あくまでも情報を処理する道具であった。
 			</p>
+			<div class="printfriendlyblock">
+				<div align="center">
+					<img width=20% src="Alan_Kay_(3097597186)_(cropped).jpg"> 
+					<p>「https://ja.wikipedia.org/wiki/アラン・ケイ」より</p>
+				</div>
+			</div>
 			<p>
 				コンピュータがさらに小型化される流れを踏まえ、ユビキュタス・コンピューティングというビジョンや、
 				タンジブルビッツという新しい考えも生まれた。
@@ -2297,12 +2326,11 @@ table { font-size: 90%; }
 			<p>
 				認知心理学によると（<a href="#rCP">[rCP]</a>）、ピアノ、蛇、時計などの具体的なものの単語は、
 				正義、能力、自我などの抽象的な単語よりも、記憶として保持しやすいという。
-				具体的なものは、実世界の中で、目で見、耳で聞くものである。
-				抽象的なものは、ヒトの頭の中でのみ存在するものである。
+				具体的なものは、実世界の中で、目で見て、耳で聞くものである。
 				具体的なものは、日常の活動で触れる。
 				視覚、聴覚、触覚、体性感覚、脳・神経系という身体の各部位で、やり取りをする対象である。
-				一方、抽象的なものは、ある程度の訓練ののちに、理解できるものである。
-				それを扱うのは大脳皮質。
+				一方、抽象的なものは、ヒトの頭の中でのみ存在するものである。
+				それを扱うのは大脳皮質である。
 			</p>
 			<p>
 				コンピュータという道具を使って行うことは、ハサミのような具体性がない。
@@ -2318,7 +2346,7 @@ table { font-size: 90%; }
 			<p>
 			<div class="printfriendlyblock">
 				<div align="center">
-					<img width=60% src="seven_steps_of_action.png"> 
+					<img width=80% src="seven_steps_of_action.png"> 
 				</div>
 			</div>
 			</p>
@@ -2330,7 +2358,7 @@ table { font-size: 90%; }
 			<p>
 				<div class="printfriendlyblock">
 					<div align="center">
-						<img width=60% src="seven_steps_of_action_with_computer.png"> 
+						<img width=80% src="seven_steps_of_action_with_computer.png"> 
 					</div>
 				</div>
 			</p>
@@ -2362,7 +2390,7 @@ table { font-size: 90%; }
 			<p>
 				<div class="printfriendlyblock">
 					<div align="center">
-						<img width=60% src="seven_steps_of_action_renewed.png"> 
+						<img width=80% src="seven_steps_of_action_renewed.png"> 
 					</div>
 				</div>
 			</p>
@@ -2804,7 +2832,7 @@ table { font-size: 90%; }
 
 </div>
 
-<div class="pagebreak"><hr><h2>5. 操作から会話へ</h2>
+<div class="pagebreak"><hr><h2>5. 操作から会話へ</h2><br>
 
 	<div><h3>5.1 会話モデル</h3>
 
@@ -3705,7 +3733,7 @@ table { font-size: 90%; }
 	</div>
 </div>
 
-<div class="pagebreak"><hr><h2>6. 終わりに</h2>
+<div class="pagebreak"><hr><h2>6. 終わりに</h2><br>
 
 		<details open><summary><strong>コンピュータ・アプリのデザインを変える</strong<strong></strong></summary>
 			<p>
@@ -3851,132 +3879,136 @@ table { font-size: 90%; }
 
 <div class="pagebreak"></div><hr>
 <h2>脚注</h2>
-<details open><summary>注</summary>
-<ul>
-	<li id=n01>
-		[n01] 別のソースでは、視覚は10の8乗ビット/秒、触覚は10の6乗ビット/秒、聴覚と嗅覚はそれぞれ10の5乗ビット/秒、味覚は10の3乗ビット/秒、とも言われる。
-	</li>
-	<li id=n02>
-		[n02] これらに、厳密な根拠はないとも言われる<a href="#rKH">[rKH]。</a>
-	</li>
-	<li id=n03>
-		[n03] gaを発音する唇を見せて、同時時にbaと言う音声を聞かせると、被験者は中間の調音位置をもった「da」を知覚する。
-		これをMcGurk効果という。
-		<a href="#rSO">[rSO]</a>
-		聴覚情報は、知覚レベルになると視覚情報と融合、ないし引っ張られて、知覚される。
-	</li>
-	<li id=n04>
-		[n04] 養老先生による<a href="#rYT">[rYT]</a>と、脳が大きくなったのには、手との相互作用ではなく、内在的な理由があるという。
-				知覚系の末端となる脊髄神経細胞は、発生の段階では成人になったときに残る細胞数の数倍、余剰な細胞があるという。
-				ヒト以外の動物では、支配している末梢領域を持たない神経は、間引かれるという。
-				ヒトではそうでない。
-				ヒトの脳が大きくなったのは、知覚に対応しない神経が、互いに接続して支配領域を自前で持ち、
-				かつ、互いに、知覚以外から、入力しあう関係を持ったからだという。
-				それが意識だと。
-	</li>
-	<li id=n05>
-		[n05] コンピュータと人の情報のやり取りの観点では、
-		コンピュータからの出力が知覚したり認知する対象となる。
-		また、人からコンピュータへ情報を入力したりする。
-		本文書では、コンピュータの入出力という言い方ではなく、ヒトを中心にした言い方をする。
-		コンピュータに対して、ヒトは意図的動作をしたり言語表現をする。
-		コンピュータからの情報を、ヒトが知覚し認知する。
-		また、ユーザという言葉は、コンピュータを中心とした表現なので、使わない。
-		あくまで、ヒトあるいは利用者である。
-		また、コンピューター・ユーザ・インターフェイスという用語を使わない。
-		ヒトがコンピュータを操作するインターフェイス、という言いかたをする。
-	</li>
-	<li id=n06>
-		[n06] 養老先生は、視覚的言語と聴覚的言語の連合を、ヒトの大脳の接続でも解説する。
-		ウェルニッケ中枢という聴覚的言語中枢がある。
-		そこから、神経が伸びて、角回という視覚的言語中枢に入る。
-		聴覚的言語中枢と、視覚的言語中枢との、双方から、神経が伸びて、ブローカ中枢という運動性言語中枢に入る。
-		つまり、聴覚と視覚からの入力が、音響発生神経に接続している、と。
-		ただし、最近の研究によれば、特定の言語機能はモジュール化されているのではなく、
-		広範囲の神経ネットワークによって処理されているらしい、という（<a href="#rCP">[rCP]</a>）。
-	</li>
-	<li id=n07>
-		[n07] 「心の理論」が生まれると、他個体の注意がどこに向いているかを意識できる。
-		すると、たまたまそれが自己の身体に向かっているかも、意識できるようになる。
-		他個体の心が注意を向けている「じぶん」という意識が、自己意識の源である。
-		なお、チンパンジー、ゴリラなどは、鏡を見て自己認知できるという<a href="#rCP">[rCP]</a>。
-	</li>
-	<li id=n08>
-		[n08]
-			多くの読者は、自分はパソコンを普段使っている、スマホのアプリも使いこなせている、何も難しくない、と反論されるかもしれない。
-			だが、面倒くさいことがどうでもよくなる高齢者になるにつれ、徐々にストレスを感じるようになる。
-			現在の後期高齢者は、現役のときにまだパソコンは普及せず、スマホも高齢になってから始めている。
-			スマホがライフラインとなってきたのに、後期高齢者が利用でつまずく。
-			これは、現在の社会問題である。
-			現在、スマホに慣れている人々が高齢者になれば、冷酷ながら、20年後、30年後には、情報隔離という社会問題は、解決されているだろうか？
-			若くても、現在のコンピュータアプリの複雑さと無秩序に対し、不満とストレスが、あると思う。
-			親になって、青年時の体力の感覚記憶で走るため、子供の運動会で転んでしまう。
-			それと同じで、高齢者になると、若い時には我慢した得られた、ＩＴに対する不満とストレスは、猶更、感じられるようになる。
-			10年後、20年後も、いまのままなら、批判が噴出しているだろう、と想像する。
-	</li>
-	<li id=n09>
-		[n09] 
-		よく、ヒトを比べたりする。知識や知能で。
-		しかし、高度に見えている部分は、いわば見える氷山の一角である。
-		受験競争は、そこで人を試す。
-		が、小脳の持つ知恵は、目立たないが、生活のための、生存のための知能である。
-		しかも、そこは、ヒト共通である。
-		人種による違いなどない。
-		学歴、職業とか肩書による差などない。
-		動物と比べても、生物としての共通部分のほうが、大きいのかもしれない。
-		知識や知能で比べていい気になるのは、傲慢な偏見にすぎない。
-	</li>
-</ul>
-</details>
+<div class="small">
+	<details open><summary>注</summary>
+	<ul>
+		<li id=n01>
+			[n01] 別のソースでは、視覚は10の8乗ビット/秒、触覚は10の6乗ビット/秒、聴覚と嗅覚はそれぞれ10の5乗ビット/秒、味覚は10の3乗ビット/秒、とも言われる。
+		</li>
+		<li id=n02>
+			[n02] これらに、厳密な根拠はないとも言われる<a href="#rKH">[rKH]。</a>
+		</li>
+		<li id=n03>
+			[n03] gaを発音する唇を見せて、同時時にbaと言う音声を聞かせると、被験者は中間の調音位置をもった「da」を知覚する。
+			これをMcGurk効果という。
+			<a href="#rSO">[rSO]</a>
+			聴覚情報は、知覚レベルになると視覚情報と融合、ないし引っ張られて、知覚される。
+		</li>
+		<li id=n04>
+			[n04] 養老先生による<a href="#rYT">[rYT]</a>と、脳が大きくなったのには、手との相互作用ではなく、内在的な理由があるという。
+					知覚系の末端となる脊髄神経細胞は、発生の段階では成人になったときに残る細胞数の数倍、余剰な細胞があるという。
+					ヒト以外の動物では、支配している末梢領域を持たない神経は、間引かれるという。
+					ヒトではそうでない。
+					ヒトの脳が大きくなったのは、知覚に対応しない神経が、互いに接続して支配領域を自前で持ち、
+					かつ、互いに、知覚以外から、入力しあう関係を持ったからだという。
+					それが意識だと。
+		</li>
+		<li id=n05>
+			[n05] コンピュータと人の情報のやり取りの観点では、
+			コンピュータからの出力が知覚したり認知する対象となる。
+			また、人からコンピュータへ情報を入力したりする。
+			本文書では、コンピュータの入出力という言い方ではなく、ヒトを中心にした言い方をする。
+			コンピュータに対して、ヒトは意図的動作をしたり言語表現をする。
+			コンピュータからの情報を、ヒトが知覚し認知する。
+			また、ユーザという言葉は、コンピュータを中心とした表現なので、使わない。
+			あくまで、ヒトあるいは利用者である。
+			また、コンピューター・ユーザ・インターフェイスという用語を使わない。
+			ヒトがコンピュータを操作するインターフェイス、という言いかたをする。
+		</li>
+		<li id=n06>
+			[n06] 養老先生は、視覚的言語と聴覚的言語の連合を、ヒトの大脳の接続でも解説する。
+			ウェルニッケ中枢という聴覚的言語中枢がある。
+			そこから、神経が伸びて、角回という視覚的言語中枢に入る。
+			聴覚的言語中枢と、視覚的言語中枢との、双方から、神経が伸びて、ブローカ中枢という運動性言語中枢に入る。
+			つまり、聴覚と視覚からの入力が、音響発生神経に接続している、と。
+			ただし、最近の研究によれば、特定の言語機能はモジュール化されているのではなく、
+			広範囲の神経ネットワークによって処理されているらしい、という（<a href="#rCP">[rCP]</a>）。
+		</li>
+		<li id=n07>
+			[n07] 「心の理論」が生まれると、他個体の注意がどこに向いているかを意識できる。
+			すると、たまたまそれが自己の身体に向かっているかも、意識できるようになる。
+			他個体の心が注意を向けている「じぶん」という意識が、自己意識の源である。
+			なお、チンパンジー、ゴリラなどは、鏡を見て自己認知できるという<a href="#rCP">[rCP]</a>。
+		</li>
+		<li id=n08>
+			[n08]
+				多くの読者は、自分はパソコンを普段使っている、スマホのアプリも使いこなせている、何も難しくない、と反論されるかもしれない。
+				だが、面倒くさいことがどうでもよくなる高齢者になるにつれ、徐々にストレスを感じるようになる。
+				現在の後期高齢者は、現役のときにまだパソコンは普及せず、スマホも高齢になってから始めている。
+				スマホがライフラインとなってきたのに、後期高齢者が利用でつまずく。
+				これは、現在の社会問題である。
+				現在、スマホに慣れている人々が高齢者になれば、冷酷ながら、20年後、30年後には、情報隔離という社会問題は、解決されているだろうか？
+				若くても、現在のコンピュータアプリの複雑さと無秩序に対し、不満とストレスが、あると思う。
+				親になって、青年時の体力の感覚記憶で走るため、子供の運動会で転んでしまう。
+				それと同じで、高齢者になると、若い時には我慢した得られた、ＩＴに対する不満とストレスは、猶更、感じられるようになる。
+				10年後、20年後も、いまのままなら、批判が噴出しているだろう、と想像する。
+		</li>
+		<li id=n09>
+			[n09] 
+			よく、ヒトを比べたりする。知識や知能で。
+			しかし、高度に見えている部分は、いわば見える氷山の一角である。
+			受験競争は、そこで人を試す。
+			が、小脳の持つ知恵は、目立たないが、生活のための、生存のための知能である。
+			しかも、そこは、ヒト共通である。
+			人種による違いなどない。
+			学歴、職業とか肩書による差などない。
+			動物と比べても、生物としての共通部分のほうが、大きいのかもしれない。
+			知識や知能で比べていい気になるのは、傲慢な偏見にすぎない。
+		</li>
+	</ul>
+	</details>
+</div>
 
 <div class="pagebreak"></div><hr>
 <h2>参考文献</h2>
-<details open><summary>出典</summary>
-<ul>
-<li id=rBD>[rBD] Multimodal Interfaces: A Survey of Principles, Models and Frameworks、Bruno Dumas, Denis Lalanne, Sharon Ovian、2009. </li>
-<li id=rBS>[rBS] The Limits of Speech Recognition. s.l. : Communication of ACM、Shneiderman, Ben、2000.</li>
-<li id=rCL>[rCL] 「137億年の物語」（What On Earth Happendd?)、クリストファー・ロイド（Christopher Lloyd)</li>
-<li id=rCP>[rCP] 「認知心理学」、箱田、都築、川端、萩原、有斐閣、ISBN978-4-641-05374-8</li>
-<li id=rCW>[rCW] Multiple resources and performance prediction、Wickens, Cristopher D、 2002</li>
-<li id=rDE>[rDE] 1968 “Mother of All Demos” by SRI’s Doug Engelbart and Team, https://www.youtube.com/watch?v=B6rKUf9DWRI </li>
-<li id=rDN>[rDN] 「誰のためのデザイン？」（The Psychlogy of Everyday Things）、D.A.ノーマン、新曜社認知科学選書,1988</li>
-<li id=rFJ>[rFJ] http://fujiidental.jp/clinic/archives/18 </li>
-<li id=rFT>[rFT] 「生体情報システム論」、福田忠彦、1995、産業図書、ISBN978-4-7828-5303-0C335</li>
-<li id=rHK>[rHK] 「視覚と聴覚はどうちがうか」、樋渡涓二（ひわたり　けんじ）、1997、NHK 第31巻第11号</li>
-<li id=rHN>[rHN] 廣野守俊 永雄総一 小脳 脳科学辞典　https://bsd.neuroinf.jp/wiki/%E5%B0%8F%E8%84%B3 (2021)</li>
-<li id=rIH>[rIH」 人とロボットが織りなす未来の社会とは　大阪大学教授 石黒浩氏が描く進化の姿、https://monoist.itmedia.co.jp/mn/articles/2207/28/news027.html</li>
-<li id=rIN>[rIN] 「図解・感覚器の進化 原始動物からヒトへ水中から陸上へ」、岩堀修明（いわほり・のぶはる）著、2011、講談社、ISBN978-4-06-257712-0</li>
-<li id=rIY>[rIY] Tangible Bits: コンピューター・ネットワークスペースと人間との物理的な接点、石井裕インタビュー記事　http://www.rm2c.ise.ritsumei.ac.jp/tamura/maindoc/ishii.html</li>
-<li id=rKH>[rKH] 『「視覚は人間の情報入力の８０％」説の来し方と行方』、加藤宏、筑波技術大学テクノレポート Vol.25 (1) Dec. 2017</li>
-<li id=rKH2>[rKH2] 「霊長類の音声の運動基盤及び多様性とその進化的な背景」、香田啓貴（こだ　ひろき）、日本音響学会誌71巻7号、2015
-<li id=KH3> [rKH3] サルの発声から見るヒトの言語の起源、香田啓貴 https://www.brh.co.jp/publication/journal/102/rp/research01/ </li>	
-<li id=rKK>[rKK] Eye Tracking in Human-Computer Interaction and Usability Research; Ready to Deliver the Promises、Karn, J. K. Jacob and Keith S.、2003</li>
-<li id=rKW>[rKW] 蔵田潔、渡辺雅彦 大脳皮質 脳科学辞典 https://bsd.neuroinf.jp/wiki/%E5%A4%A7%E8%84%B3%E7%9A%AE%E8%B3%AA (2021)</li>
-<li id=rMA>[rMA] 「脳の神経細胞の数」、三上章允（みかみ あきちか）、http://web2.chubu-gu.ac.jp/web_labo/mikami/brain/10/index-10.html</li>
-<li id=rMC>[rMC] https://www.ted.com/talks/michael_corballis_evolution_s_great_mystery_language/transcript?language=ja</li>
-<li id=rMK>[rMK] 『ヒトとは視覚を発達させ、嗅覚を退化させた「か弱きサル」である』、三谷宏治（みたに こうじ）、https://www.careerinq.com/blog/mitani/2015/05/post-6.shtml</li>
-<li id=rMS>[rMS] 「皮膚感覚の情報処理」、下条誠、計測と制御、第41巻、第10号、2002年10月
-<li id="rMS2">[rMS2]「発達に伴う指さし行動の質的変化」、宮津寿美香（すみか）、保育学研究56巻2号、2018
-<li id=rNT>[rNT] 「霊長類の音声器官の比較発達ー言葉の系統発生」、西村剛(（にしむら　たけし）, The Japanese Journal of Animal Psychology, 60, 1 49-58 (2010)</li>
-<li id=rNY>[rNY] 野口悠紀雄『「超」書く技術』(プレジデント社)</li>
-<li id=rPN>[rPN] 「生命とは何か？」、ポール・ナース、ダイヤモンド社、ISBN978-4-478-11107-9 C0045</li> 
-<li id=rRT>[rRT] 高齢者はICTの何に困っているの？https://www.soumu.go.jp/main_content/000115449.pdf </li>
-<li id=rSK>[rSK]「ヒトと動物のインタラクシジョン研究」、鮫島和行、バイオメカニズム学会 Vol43、No3.、2019</li>
-<li id=rSO>[rSO] 「生体情報処理」、杉江昇、大西昇、昭晃堂、2001年、ISBN4-7856-9060-7</li>
-<li id=rST>[rST] 橘木 修志 視細胞 脳科学辞典　https://bsd.neuroinf.jp/wiki/%E8%A6%96%E7%B4%B0%E8%83%9E (2019)</li>
-<li id=rSW>[rSW] 「インターフェイスデザインの心理学」(100 Things Every Designer Needs to KNow ABout People)、スーザン・ワインチェンク(Suzan Weinschenk)、O’REILLY、ISBN978-4-87311-557-3</li>
-<li id=rTK>[rTK] 「嗅覚の匂い受容メカニズム」、東原和成（とうはら かずしげ）、2015</li>
-<li id=rYH>[rYH] 「サピエンス全史」、ユヴァル・ノア・ハラリ、2016</li>
-<li id=rYH2>[rYH2] 「指の機能」、米満弘之、1973、精密機械、40巻1号、https://www.jstage.jst.go.jp/article/jjspe1933/40/468/40_468_18/_pdf</li>
-<li id=rYT>[rYT]「唯脳論」養老孟司、1998、ISBN4-480-08439-8</li>
-<li id=rUT>[rUT] 上村朋子 空間記憶 脳科学辞典 https://bsd.neuroinf.jp/wiki/%E7%A9%BA%E9%96%93%E8%A8%98%E6%86%B6 (2018)</li>
-<li id=rVB>[rVB] 「ヒトの脳 : 解剖学的構造と機能」、https://www.visiblebody.com/ja/learn/nervous/brain</li>
-<li id=rVB2>[rVB2] 「考えてみるに As We May Think」、Vannevar Bush、山形浩生訳</li>
+<div class="small">
+	<details open><summary>出典</summary>
+	<ul>
+	<li id=rBD>[rBD] Multimodal Interfaces: A Survey of Principles, Models and Frameworks、Bruno Dumas, Denis Lalanne, Sharon Ovian、2009. </li>
+	<li id=rBS>[rBS] The Limits of Speech Recognition. s.l. : Communication of ACM、Shneiderman, Ben、2000.</li>
+	<li id=rCL>[rCL] 「137億年の物語」（What On Earth Happendd?)、クリストファー・ロイド（Christopher Lloyd)</li>
+	<li id=rCP>[rCP] 「認知心理学」、箱田、都築、川端、萩原、有斐閣、ISBN978-4-641-05374-8</li>
+	<li id=rCW>[rCW] Multiple resources and performance prediction、Wickens, Cristopher D、 2002</li>
+	<li id=rDE>[rDE] 1968 “Mother of All Demos” by SRI’s Doug Engelbart and Team, https://www.youtube.com/watch?v=B6rKUf9DWRI </li>
+	<li id=rDN>[rDN] 「誰のためのデザイン？」（The Psychlogy of Everyday Things）、D.A.ノーマン、新曜社認知科学選書,1988</li>
+	<li id=rFJ>[rFJ] http://fujiidental.jp/clinic/archives/18 </li>
+	<li id=rFT>[rFT] 「生体情報システム論」、福田忠彦、1995、産業図書、ISBN978-4-7828-5303-0C335</li>
+	<li id=rHK>[rHK] 「視覚と聴覚はどうちがうか」、樋渡涓二（ひわたり　けんじ）、1997、NHK 第31巻第11号</li>
+	<li id=rHN>[rHN] 廣野守俊 永雄総一 小脳 脳科学辞典　https://bsd.neuroinf.jp/wiki/%E5%B0%8F%E8%84%B3 (2021)</li>
+	<li id=rIH>[rIH」 人とロボットが織りなす未来の社会とは　大阪大学教授 石黒浩氏が描く進化の姿、https://monoist.itmedia.co.jp/mn/articles/2207/28/news027.html</li>
+	<li id=rIN>[rIN] 「図解・感覚器の進化 原始動物からヒトへ水中から陸上へ」、岩堀修明（いわほり・のぶはる）著、2011、講談社、ISBN978-4-06-257712-0</li>
+	<li id=rIY>[rIY] Tangible Bits: コンピューター・ネットワークスペースと人間との物理的な接点、石井裕インタビュー記事　http://www.rm2c.ise.ritsumei.ac.jp/tamura/maindoc/ishii.html</li>
+	<li id=rKH>[rKH] 『「視覚は人間の情報入力の８０％」説の来し方と行方』、加藤宏、筑波技術大学テクノレポート Vol.25 (1) Dec. 2017</li>
+	<li id=rKH2>[rKH2] 「霊長類の音声の運動基盤及び多様性とその進化的な背景」、香田啓貴（こだ　ひろき）、日本音響学会誌71巻7号、2015
+	<li id=KH3> [rKH3] サルの発声から見るヒトの言語の起源、香田啓貴 https://www.brh.co.jp/publication/journal/102/rp/research01/ </li>	
+	<li id=rKK>[rKK] Eye Tracking in Human-Computer Interaction and Usability Research; Ready to Deliver the Promises、Karn, J. K. Jacob and Keith S.、2003</li>
+	<li id=rKW>[rKW] 蔵田潔、渡辺雅彦 大脳皮質 脳科学辞典 https://bsd.neuroinf.jp/wiki/%E5%A4%A7%E8%84%B3%E7%9A%AE%E8%B3%AA (2021)</li>
+	<li id=rMA>[rMA] 「脳の神経細胞の数」、三上章允（みかみ あきちか）、http://web2.chubu-gu.ac.jp/web_labo/mikami/brain/10/index-10.html</li>
+	<li id=rMC>[rMC] https://www.ted.com/talks/michael_corballis_evolution_s_great_mystery_language/transcript?language=ja</li>
+	<li id=rMK>[rMK] 『ヒトとは視覚を発達させ、嗅覚を退化させた「か弱きサル」である』、三谷宏治（みたに こうじ）、https://www.careerinq.com/blog/mitani/2015/05/post-6.shtml</li>
+	<li id=rMS>[rMS] 「皮膚感覚の情報処理」、下条誠、計測と制御、第41巻、第10号、2002年10月
+	<li id="rMS2">[rMS2]「発達に伴う指さし行動の質的変化」、宮津寿美香（すみか）、保育学研究56巻2号、2018
+	<li id=rNT>[rNT] 「霊長類の音声器官の比較発達ー言葉の系統発生」、西村剛(（にしむら　たけし）, The Japanese Journal of Animal Psychology, 60, 1 49-58 (2010)</li>
+	<li id=rNY>[rNY] 野口悠紀雄『「超」書く技術』(プレジデント社)</li>
+	<li id=rPN>[rPN] 「生命とは何か？」、ポール・ナース、ダイヤモンド社、ISBN978-4-478-11107-9 C0045</li> 
+	<li id=rRT>[rRT] 高齢者はICTの何に困っているの？https://www.soumu.go.jp/main_content/000115449.pdf </li>
+	<li id=rSK>[rSK]「ヒトと動物のインタラクシジョン研究」、鮫島和行、バイオメカニズム学会 Vol43、No3.、2019</li>
+	<li id=rSO>[rSO] 「生体情報処理」、杉江昇、大西昇、昭晃堂、2001年、ISBN4-7856-9060-7</li>
+	<li id=rST>[rST] 橘木 修志 視細胞 脳科学辞典　https://bsd.neuroinf.jp/wiki/%E8%A6%96%E7%B4%B0%E8%83%9E (2019)</li>
+	<li id=rSW>[rSW] 「インターフェイスデザインの心理学」(100 Things Every Designer Needs to KNow ABout People)、スーザン・ワインチェンク(Suzan Weinschenk)、O’REILLY、ISBN978-4-87311-557-3</li>
+	<li id=rTK>[rTK] 「嗅覚の匂い受容メカニズム」、東原和成（とうはら かずしげ）、2015</li>
+	<li id=rYH>[rYH] 「サピエンス全史」、ユヴァル・ノア・ハラリ、2016</li>
+	<li id=rYH2>[rYH2] 「指の機能」、米満弘之、1973、精密機械、40巻1号、https://www.jstage.jst.go.jp/article/jjspe1933/40/468/40_468_18/_pdf</li>
+	<li id=rYT>[rYT]「唯脳論」養老孟司、1998、ISBN4-480-08439-8</li>
+	<li id=rUT>[rUT] 上村朋子 空間記憶 脳科学辞典 https://bsd.neuroinf.jp/wiki/%E7%A9%BA%E9%96%93%E8%A8%98%E6%86%B6 (2018)</li>
+	<li id=rVB>[rVB] 「ヒトの脳 : 解剖学的構造と機能」、https://www.visiblebody.com/ja/learn/nervous/brain</li>
+	<li id=rVB2>[rVB2] 「考えてみるに As We May Think」、Vannevar Bush、山形浩生訳</li>
 
-</li>
-</li>
-</ul>
-</details>
+	</li>
+	</li>
+	</ul>
+	</details>
+</div>
 
 <!--https://shu-sait.com/mokuji-jidou-seisei/-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
